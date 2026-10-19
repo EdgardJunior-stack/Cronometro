@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cronômetro</title>
+</head>
+
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="./assets/carro.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+
+    <main>
+        <div class="container">
+            <h1 id="timer">00:00:00</h1>
+
+            <div class="buttons">
+                <button id="start">Iniciar</button>
+                <button id="pause">Pausar</button>
+                <button id="reset">Zerar</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>
